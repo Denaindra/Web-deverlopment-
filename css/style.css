@@ -1,0 +1,8 @@
+hr {
+  
+    border-style: none;
+    width: 5%;
+    border-width: 5px;
+    border-top-style: dotted;
+    border-color: gray;  
+  }
