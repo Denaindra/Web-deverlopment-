@@ -6,3 +6,10 @@ hr {
     border-top-style: dotted;
     border-color: gray;  
   }
+
+  .red{
+      background-color: red;
+  }
+  .green{
+      background-color: green;
+  }
