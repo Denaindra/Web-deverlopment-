@@ -1,3 +1,41 @@
 body{
-    background-color: aquamarine;
+    background-color:green;
+    margin: 0%;
+    text-align: center;
+}
+h1{
+    margin: 0%;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.top-cloud{
+ position: absolute;
+ top: 20px;
+ right: 500px;
+}
+
+.bottom-cloud{
+    position: absolute;
+
+}
+
+.cave{
+    position: relative;
+    
+}
+.top-container{
+    background-color:aqua ;   
+    padding-top: 150px; 
+    position: relative;
+}
+
+.middle-container{
+   
+}
+
+.bottom-container{
+   
 }
