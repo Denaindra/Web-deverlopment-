@@ -46,11 +46,15 @@ h1{
 .title-img{
   width: 50%;
   transform: rotate(25deg);
+  position: absolute;
+  
 }
 
 /* feature button */
 #features{
     padding: 7% 50px;
+    position: relative;
+    background-color: #fff;
 }
 
 .feature-box{
