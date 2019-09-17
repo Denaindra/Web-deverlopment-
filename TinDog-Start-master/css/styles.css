@@ -44,7 +44,7 @@ h1{
 
 /* title image */
 .title-img{
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
 }
 
@@ -69,4 +69,41 @@ h1{
 
 .fature-icon:hover{
     color: #ff4c68;
+}
+
+/* testmonial-selction */
+
+h2 {
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.testmonial-selction{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.testimonial-img{
+    width: 12%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 20%;
+    margin: 0% 1%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
 }
