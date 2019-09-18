@@ -115,3 +115,36 @@ h2 {
 .price-col{
     margin: 1% 0%;
 }
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 4% 0%;
+    color: #fff;
+    font-family:"Montserrat";
+}
+
+/* footer section */
+
+#footer{
+ text-align: center;
+ padding: 5% 0;
+}
+
+.social-pag{
+    margin: 0% .2%;
+}
+
+@media(max-width:992px){
+    .title-img{
+        margin-top: 5%;
+        transform: rotate(0);
+        position: static;
+      }
+
+      .title-div{
+          text-align: center;
+      }
+}
