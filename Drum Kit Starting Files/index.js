@@ -4,7 +4,19 @@ var buttons = document.querySelectorAll("button");
     buttons[i].addEventListener("click", function() {
       var buttonInnerHtml = this.innerHTML;
 
-      switch(buttonInnerHtml)
+      MusicSound(buttonInnerHtml)
+    });
+}
+
+addEventListener("keypress",function(event){
+  MusicSound(event.key)
+
+});
+
+
+function MusicSound(keyTex)
+{
+  switch(keyTex)
       {
         case'w':
         var audio = new Audio('sounds/crash.mp3');
@@ -41,5 +53,4 @@ var buttons = document.querySelectorAll("button");
         audio.play();
         break;
       }
-    });
 }
